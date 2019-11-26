@@ -1,4 +1,4 @@
-let minusButton = document.getElementById("pantsMinusBut");
+/*let minusButton = document.getElementById("pantsMinusBut");
 let addButton = document.getElementById("PantsAddBut");
 let label = document.getElementById("pantsQty");
 
@@ -23,4 +23,20 @@ function decreaseValue()
 //add our eventlisteners
 addButton.addEventListener("click",increaseValue);
 
-minusButton.addEventListener("click,decreaseValue");
+minusButton.addEventListener("click",decreaseValue);*/
+//////////////////////////////////
+
+function increaseValue() {
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+  }
+  
+  function decreaseValue() {
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value < 1 ? value = 1 : '';
+    value--;
+    document.getElementById('number').value = value;
+  }

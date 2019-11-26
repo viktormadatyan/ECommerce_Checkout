@@ -1,4 +1,4 @@
-body {
+/*body {
     background-color: bisque;
 }
 
@@ -14,4 +14,25 @@ body {
     padding: 20px;
     font-size:30px;
     text-align: center;
-}
+}*/
+
+
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+   background: lightgray;
+  
+  }
+  
+ 
+ 
+  
+  
+ 

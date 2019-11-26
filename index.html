@@ -15,9 +15,9 @@
         <div class="grid-item">2</div>
     </div>-->
 
-    <ul>
+   <!-- <ul>
         
-   <li>Pants<button id="pantsMinusBut" type="button">-</button><button type="button">+</button></li>
+   <li>Pants<button onclick="pantsMinusBut()" >-</button>0<button id="PantsAddBut" type="button">+</button></li>
     <li>Shirt<button type="button">-</button><button type="button">+</button></li>
     <li><button type="button">Calculate</button></li>
 </ul>
@@ -25,8 +25,15 @@
         <li>Subtotal:</li>
         <li>Tax:</li>
         <li>Total:</li>
-    </ul>
+    </ul>-->
     
+    <form>
+        <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+        <input type="number" id="number" value="0" />
+        <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+      </form>
+      
+
 
     
     <script src="js/index.js"></script>
