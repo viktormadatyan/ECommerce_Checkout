@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ECommerce Checkout</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body> 
-    <h1>ECommerce Checkout</h1>
-    <h3>Product Quantity Unit Price Extended Price</h3>
-   
-    <div>
-        <h4>Pants</h4>
-        <h4>Shirt</h4>
-    </div>
-    <div>
-        <button id="Calculate" type="button">Calculate</button>
-    </div>
-    <div>
-        <h4>Subtotal:</h4>
-        <h4>Tax:</h4>
-        <h4>Total:</h4>
-    </div>
-    <div>
-       <h4> Have a promo code?</h4>  <button id=PromCode type="button">Click to Enter</button>
-    </div>
-    
-   
-
-
-    
-    <script src="js/index.js"></script>
-</body>
-</html>
+<header>
+        <title>Ecommerce checkout V.Madatyan</title>
+        </header>
+        
+        <body>
+        <h1>ECommerce checkout</h1>
+        <br/>
+        <table>
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Unit Price</th>
+              <th>Extended Price</th>
+            </tr>
+            <tr>
+                <td>Pants</td>
+                <td>
+                  <button id="pants_down">-</button>
+                  <span id="pants_num">0</span>
+                  <button id="pants_up">+</button>
+                </td>
+                <td id="pants_uprice"></td>
+                <td id="pants_eprice">$0.00</td>
+            </tr>
+            <tr>
+                <td>Shirt</td>
+                <td>
+                  <button id="shirt_down">-</button>
+                  <span id="shirt_num">0</span>
+                  <button id="shirt_up">+</button>
+                </td>
+                <td id="shirt_uprice"></td>
+                <td id="shirt_eprice">$0.00</td>
+            </tr>
+          </table>
+        
+          <button type="button" id="calc">Calculate</button>
+          
+          <br/>
+          <br/>
+        
+          <table>
+              <tr>
+                <td>Subtotal:</td>          
+                <td id="subtotal"></td>          
+              </tr>
+              <tr>
+                <td>Tax:</td>          
+                <td id="tax"></td>          
+              </tr>
+              <tr>
+                <td>Total:</td>          
+                <td id="total"></td>          
+              </tr>
+          </table>  
+          <br/>
+          
+          <strong>Have a promo code?</strong>
+          <button type="button" id="promo">Click to enter</button>
+          <strong id="applied_promo"></strong>
+        
+          <script src="js/index.js"></script> 
+        </body>
+        </html>
