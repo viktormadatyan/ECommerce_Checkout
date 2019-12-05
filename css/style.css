@@ -1,35 +1,4 @@
-/*body {
-    background-color: bisque;
-}
 
-.grid-conteiner {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: pink;
-    padding: 10px;
-}
-.grid-item {
-    background-color: greenyellow;
-    border: 1px solid;
-    padding: 20px;
-    font-size:30px;
-    text-align: center;
-}*/
-
-
-  
-  .value-button {
-    display: inline-block;
-    border: 1px solid #ddd;
-    margin: 0px;
-    width: 40px;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 11px 0;
-   background: lightgray;
-  
-  }
   
  
  
